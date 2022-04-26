@@ -21,7 +21,7 @@ This can be a powerful way to combine multiple Items into one widget (e.g. an oh
 Common things one might use an expression for are to change an icon or color based on the state of an Item, to hide a widget entirely if an Item isn't in a given state, or to change the colors of the widget elements.
 For full details on expressions see the [Expressions docs]({{base}}/ui/building-pages.html#dynamically-configuring-components-with-expressions).
 
-Note that when working with Units of Masurement, the state of the Item needs to be parsed into a number for comparisons.
+Note that when working with Units of Measurement, the state of the Item needs to be parsed into a number for comparisons.
 For example -
 
 ```javascript
@@ -43,7 +43,7 @@ The "Visibility" option takes a boolean `true` or `false` (without quotes) or th
 The "Visibile to" property controls which type of user can see the widget.
 Take heed of the warning, this is not a security feature, but it can be used to limit what a regular user can see in the automatically generated parts of the Overview Page.
 
-There are other ways to hide an Item from the automatiaclly generated parts of the UI page.
+There are other ways to hide an Item from the automatically generated parts of the UI page.
 
 ### Exclude the Item from the Model
 
